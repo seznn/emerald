@@ -3,7 +3,9 @@ layout: page
 title: Contact
 ---
 
-<h2>Get in touch</h2>
+<section id="three" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Get in touch</h2>
 							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
 							<div class="split style1">
 								<section>
@@ -54,3 +56,7 @@ title: Contact
 									</ul>
 								</section>
 							</div>
+						</div>
+					</section>
+
+			</div>
