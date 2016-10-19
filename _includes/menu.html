@@ -1,13 +1,11 @@
 <nav {% if site.reverse == true %}id="nav-left"{% else %}id="nav"{% endif %}>
 	<div id="nav-list">
-		<a href="{{ site.baseurl }}">Home</a>
 		
-		<li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a></li>
-		<li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
-		<li><a href="#" class="fa-github"><span class="label">GitHub</span></a></li>
-		<li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
-		<li><a href="#" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
+		<span class="label"><i class="fa fa-linkedin fa-5x" aria-hidden="true"></i>LinkedIn</span>
 		<i class="fa fa-twitter fa-5x" aria-hidden="true"></i>
+		<i class="fa fa-medium fa-5x" aria-hidden="true"></i>
+		<i class="fa fa-instagram fa-5x" aria-hidden="true"></i>
+		
 
 		<!-- Nav pages -->
 	  {% for page in site.pages %}
