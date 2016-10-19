@@ -1,11 +1,11 @@
 <nav {% if site.reverse == true %}id="nav-left"{% else %}id="nav"{% endif %}>
 	<div id="nav-list">
-		
-		<span class="label"><i class="fa fa-linkedin fa-5x" aria-hidden="true"></i>LinkedIn</span>
-		<i class="fa fa-twitter fa-5x" aria-hidden="true"></i>
-		<i class="fa fa-medium fa-5x" aria-hidden="true"></i>
-		<i class="fa fa-instagram fa-5x" aria-hidden="true"></i>
-		
+		<ul class="contact">	
+			<li><i class="fa fa-linkedin fa-5x" aria-hidden="true"></i></li>
+			<li><i class="fa fa-twitter fa-5x" aria-hidden="true"></i></li>
+			<li><i class="fa fa-medium fa-5x" aria-hidden="true"></i></li>
+			<li><i class="fa fa-instagram fa-5x" aria-hidden="true"></i></li>
+		</ul>
 
 		<!-- Nav pages -->
 	  {% for page in site.pages %}
